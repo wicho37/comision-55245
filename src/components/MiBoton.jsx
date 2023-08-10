@@ -1,7 +1,7 @@
 
 
 
-const MiBoton = ({children}) => {
+const MiBoton = ({children, color, click}) => {
     
     const style = {
         background: color,
@@ -14,7 +14,7 @@ const MiBoton = ({children}) => {
     }
     return(
         <div>
-           <button style={style}>
+           <button style={style} onClick={click}>
             {children}
         </button>
         </div>

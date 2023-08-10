@@ -1,27 +1,26 @@
 /* import Menu from "../Menu/Menu" */
-/* import "./Header.scss" */
-/* import { Link } from "react-router-dom" */
-
-
+/* import { Header } from "./components/Header/Header" */
+import "./Header.scss"
 
 export const Header = () => {
 
-    return(
+    return (
         <header className="header bg-blue-400">
-          < div className="header_container">
-            <h1 className="header_logo">MI PASTILLITA</h1>
-            
-              <nav className="navbar">
-                <a className="nav__link" href="#">nosotros</a>
-                <a className="nav__link" href="#">productos</a>
-                <a className="nav__link" href="#">servicios</a>
-              </nav>
+            <div className="header_container">
 
-              <Menu />
-          </div>
+                <h1 className="header_logo">MI GRANJA POKEMON</h1>
+
+                <nav className="navbar">
+                    <a className="nav__link" href="#">nosotros</a>
+                    <a className="nav__link" href="#">productos</a>
+                    <a className="nav__link" href="#">servicios</a>
+                </nav>
+
+            </div>
         </header>
+
     )
-} 
+}
 
 /* 
 import { useContext } from 'react'
@@ -43,4 +42,4 @@ export const Header = () => {
             </div>
         </header>
     )
-}*/*/
+}*/

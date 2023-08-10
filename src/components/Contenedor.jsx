@@ -52,8 +52,8 @@ const Contenedor = ({children}) => {
                 Mollitia dignissimos quia, quae placeat suscipit sed deserunt eligendi ipsum quam,
                 at nostrum qui debitis! Voluptatibus, temporibus.
                 Optio cupiditate maiores harum minima dolores eum ipsum!</p>
- */}
-               
+
+                */}
         </div>
     )
 }

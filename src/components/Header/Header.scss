@@ -1,9 +1,10 @@
 .header{
     background-color: rgb(132, 223, 223);
+   
     
     .header_container{
-        max-width: 1100px;
-        margin: 0 auto;
+        min-width: 1200px;
+        margin: 40px ;
         padding: 20px 0;
         display: flex ;
         justify-content: space-between ;
