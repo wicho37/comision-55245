@@ -1,6 +1,6 @@
 /* import Menu from "../Menu/Menu" */
 /* import { Header } from "./components/Header/Header" */
-import "./Header.scss"
+import "./Header.scss";
 
 export const Header = () => {
 

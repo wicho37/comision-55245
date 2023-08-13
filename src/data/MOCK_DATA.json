@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 1500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "verduras"
+    },
+    {
+        "id": 2,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 2500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "verduras"
+    },
+    {
+        "id": 3,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 3500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "panaderia"
+    },
+    {
+        "id": 4,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 4500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "panaderia"
+    },
+    {
+        "id": 5,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "carniceria"
+    },
+    {
+        "id": 6,
+        "nombre": "producto 1",
+        "descripcion": "lorem ipsum.....",
+        "precio": 6500,
+        "img": "https://dummyimage.com/200*200/000",
+        "category": "carniceria"
+    }
+    
+]
+
