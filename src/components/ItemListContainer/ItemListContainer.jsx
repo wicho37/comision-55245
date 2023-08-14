@@ -18,8 +18,16 @@ const ItemListContainer = () => {
                })
      }, [])
 
+     useEffect(() => {
+               fetch ("https://jsonplaceholder.typicode.com/posts")
+                   .then((resp) => resp.json()
+                   .then((data) => {
+                        console.log(data)
+                   }))
+     }, [])
+
      return (
-          <div>
+          <div> 
                <ItemList productos={productos} />
           </div>
      )
