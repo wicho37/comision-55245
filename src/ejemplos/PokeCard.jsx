@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 const PokeCard = ({url}) => {
     const [pokemon, setPokemon] = useState(null)
-
+    
 
     useEffect(() => {
         fetch(url)
@@ -22,7 +22,7 @@ const PokeCard = ({url}) => {
                 pokemon &&
                 <div>
                     <h4>{pokemon.name}</h4>
-                    <img src={pokemon.sprites.back_default} alt={pokemon.name} />
+                    <img src={pokemon.sprites.fornt_default} alt={pokemon.name} />
                 </div>
             }
 

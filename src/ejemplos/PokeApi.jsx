@@ -15,8 +15,8 @@ const PokeApi = () => {
     }, [id])
 
 
-    const handlesSiguiente = () => id < 20 && setId(id + 1)
-    const handlesAnterior = () => id > 1 && setId(id - 1)
+    const handlesSiguiente = () => setId(id + 1)
+    const handlesAnterior = () => id > 1 && setId(id - 1) 
 
     return (
         <div className="container my-3">
@@ -28,12 +28,12 @@ const PokeApi = () => {
                 <div>
 
                     <h4>{pokemon.name}</h4>
-                    <img src={pokemon.sprites.back_default} alt={pokemon.name} />
+                    <img src={pokemon.sprites.front_default} alt={pokemon.name} />
                 </div>
             }
 
-            <button onClick={handlesAnterior} className="btn btn-primary mx -1"> former</button>
-            <button onClick={handlesSiguiente} className="btn btn-primary mx-1">next</button>
+            <button onClick={handlesAnterior} className="btn btn-primary mx-1">Anterior</button>
+            <button onClick={handlesSiguiente} className="btn btn-primary mx-1">Siguiente</button>
         </div>
         
     )

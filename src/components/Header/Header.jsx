@@ -2,7 +2,7 @@
 /* import { Header } from "./components/Header/Header" */
 import "./Header.scss";
 
-export const Header = () => {
+const Header = () => {
 
     return (
         <header className="header bg-blue-400">
@@ -22,6 +22,8 @@ export const Header = () => {
     )
 }
 
+
+export  default Header
 /* 
 import { useContext } from 'react'
 import Menu from '../Menu/Menu'
