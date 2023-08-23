@@ -2,33 +2,21 @@ import { useEffect, useRef, useState } from "react"
 import "./ItemListContainer.scss"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
+import { useProductos } from "../../hooks/useProductos"
+
 
 
 const ItemListContainer = () => {
-     const [productos, setProductos] = useState([])
-     console.log(productos)
-
-     useEffect(() => {
-          pedirDatos()
-               .then((res) => {
-                    setProductos(res)
-               })
-               .catch((error) => {
-                    console.log(error)
-               })
-     }, [])
-
-     useEffect(() => {
-               fetch ("https://jsonplaceholder.typicode.com/posts")
-                   .then((resp) => resp.json()
-                   .then((data) => {
-                        console.log(data)
-                   }))
-     }, [])
-
+     const { productos, loading } =  useProductos()
+     console.log(loading, productos)
+     
      return (
           <div> 
-               <ItemList productos={productos} />
+               {
+                    loading
+                    ? <h2>Cargando....</h2>
+                    :  <ItemList productos={productos} />
+               }
           </div>
      )
 }
