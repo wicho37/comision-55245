@@ -1,14 +1,26 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import "./ItemListContainer.scss"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
-import { useProductos } from "../../hooks/useProductos"
+
+
 
 
 
 const ItemListContainer = () => {
-     const { productos, loading } =  useProductos()
-     console.log(loading, productos)
+     const [productos, setProductos] = useState([])
+     const [loading, setLoading] = useState(true)
+ 
+     useEffect(() => {
+         setLoading(true)
+ 
+         pedirDatos()
+              .then(r => setProductos(r))
+              .catch(e => console.log(e))
+              .finally(() => {
+                 setLoading(false)
+              })
+     }, [])
      
      return (
           <div> 

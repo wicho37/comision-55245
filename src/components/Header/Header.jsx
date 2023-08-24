@@ -1,6 +1,7 @@
 /* import Menu from "../Menu/Menu" */
 /* import { Header } from "./components/Header/Header" */
 import "./Header.scss";
+import { Link } from "react-router-dom" 
 
 const Header = () => {
 
@@ -11,9 +12,10 @@ const Header = () => {
                 <h1 className="header_logo">MI GRANJA POKEMON</h1>
 
                 <nav className="navbar">
-                    <a className="nav__link" href="#">nosotros</a>
-                    <a className="nav__link" href="#">productos</a>
-                    <a className="nav__link" href="#">servicios</a>
+                    <Link  to="/pokeApi"className="nav__link" href="#">nosotros</Link>
+                    <Link to="/ItemListContainer"className="nav__link" href="#">productos</Link>
+                    <Link to="/Contacto"className="nav__link" href="#">servicios</Link>
+                    <Link to="/home"className="nav__link" href="#">contacto</Link>
                 </nav>
 
             </div>
