@@ -1,51 +1,468 @@
+
 [
     {
         "id": 1,
-        "nombre": "producto 1",
+        "nombre": "Aguacate-Hass",
         "descripcion": "lorem ipsum.....",
         "precio": 1500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/verduras/aguacate-hass-300x300.jpg",
         "category": "verduras"
     },
     {
         "id": 2,
-        "nombre": "producto 2",
+        "nombre": "tomate",
         "descripcion": "lorem ipsum.....",
         "precio": 2500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/verduras/tomate-larga-vida-300x300.jpg",
         "category": "verduras"
     },
     {
         "id": 3,
-        "nombre": "producto 3",
+        "nombre": "cebolla_blanca",
         "descripcion": "lorem ipsum.....",
-        "precio": 3500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "precio": 5500,
+        "img": "./public/verduras/cebolla-blanca-pelada-300x300.jpg",
+        "category": "verduras"
     },
     {
         "id": 4,
-        "nombre": "producto 4",
+        "nombre": "cebolla_roja",
         "descripcion": "lorem ipsum.....",
-        "precio": 4500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "precio": 3500,
+        "img": "./public/verduras/cebolla-roja-pelada-300x300.jpg",
+        "category": "verduras"
     },
     {
         "id": 5,
-        "nombre": "producto 5",
+        "nombre": "cebollin",
         "descripcion": "lorem ipsum.....",
-        "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "carniceria"
+        "precio": 4500,
+        "img": "./public/verduras/cebollin-300x300.jpg",
+        "category": "verduras"
     },
     {
         "id": 6,
-        "nombre": "producto 6",
+        "nombre": "champiñon",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/champiñon-portobello-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 7,
+        "nombre": "guineo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/guineo-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 8,
+        "nombre": "lechuga-crespa",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/lechuga-crespa-verde-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 9,
+        "nombre": "limon",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/limon-comun-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 10,
+        "nombre": "mazorca-dulce",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/mazorca-dulce-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 11,
+        "nombre": "papa-capira",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/papa-capira-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 12,
+        "nombre": "papa-criolla",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/papa-criolla-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 13,
+        "nombre": "pepino",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/pepino-cohombro-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 14,
+        "nombre": "pimenton",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/pimenton-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 15,
+        "nombre": "pimenton_amarillo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/pimenton-amarillo-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 16,
+        "nombre": "platano",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/platano-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 17,
+        "nombre": "remolacha",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/remolacha-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 18,
+        "nombre": "repollo_morado",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/repollo-morado-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 19,
+        "nombre": "tomate_larga_vida",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/tomate-larga-vida-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id": 20,
+        "nombre": "yuca",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/yuca-300x300.jpg",
+        "category": "verduras"
+    },
+    {
+        "id":21,
+        "nombre": "zanahoria",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/zanahoria-300x300.jpg",
+        "category": "verduras"
+        },
+        {
+        "id": 22,
+        "nombre": "aji-recoto",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/verduras/aji-rocoto-300x300.jpg",
+        "category": "verduras"
+        },
+    {
+        "id": 23,
+        "nombre": "agraz",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/agraz-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 24,
+        "nombre": "banano",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/banano-uraba-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 25,
+        "nombre": "durazno-nacional",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/durazno-nacional-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 58,
+        "nombre": "durazno_importado",
         "descripcion": "lorem ipsum.....",
         "precio": 6500,
+        "img": "./public/frutas/durazno-importado-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 26,
+        "nombre": "fresa",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/fresa-guesa-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 27,
+        "nombre": "granadilla",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/granadilla-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 28,
+        "nombre": "guayaba-pera",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/guayaba-pera-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 29,
+        "nombre": "kiwi",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/kiwi-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 30,
+        "nombre": "lulo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/lulo-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 31,
+        "nombre": "mandarina",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/mandarina-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 32,
+        "nombre": "mango",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/mango-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 33,
+        "nombre": "mango-azucar",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/mango-azucar-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 34,
+        "nombre": "manzana",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/manzana-gala-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 35,
+        "nombre": "maracuya",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/maracuya-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 36,
+        "nombre": "naranja-tanjelo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/naranja-tangelo-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 37,
+        "nombre": "piña_oromiel",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/piña-oromiel-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 38,
+        "nombre": "sandia",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "./public/frutas/sandia-baby-300x300.jpg",
+        "category": "frutas"
+    },
+    {
+        "id": 39,
+        "nombre": "ajonjoli",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
         "img": "https://dummyimage.com/200x200/000",
-        "category": "carniceria"
+        "category": "especias"
+    },
+    {
+        "id": 40,
+        "nombre": "anis-estrellado",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 41,
+        "nombre": "azafran",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 42,
+        "nombre": "cardamomo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 43,
+        "nombre": "clavos",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 44,
+        "nombre": "comino",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 45,
+        "nombre": "coriando",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img":  "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 46,
+        "nombre": "curcuma",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 47,
+        "nombre": "jenjibre",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 48,
+        "nombre": "laurel",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 49,
+        "nombre": "oregano",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 50,
+        "nombre": "papikra",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 51,
+        "nombre": "pimienta-blanca",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 52,
+        "nombre": "pimienta_jamacana",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 53,
+        "nombre": "pimienta_negra",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 54,
+        "nombre": "pimienta-rosada",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 55,
+        "nombre": "romero",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 56,
+        "nombre": "sal-marina",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
+    },
+    {
+        "id": 57,
+        "nombre": "tomillo",
+        "descripcion": "lorem ipsum.....",
+        "precio": 5500,
+        "img": "https://dummyimage.com/200x200/000",
+        "category": "especias"
     }
     
 ]
