@@ -317,7 +317,7 @@
         "nombre": "ajonjoli",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/ajonjoli.jpg",
         "category": "especias"
     },
     {
@@ -325,7 +325,7 @@
         "nombre": "anis-estrellado",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/anis-estrellado.jpg",
         "category": "especias"
     },
     {
@@ -333,7 +333,7 @@
         "nombre": "azafran",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/azafran.jpg",
         "category": "especias"
     },
     {
@@ -341,7 +341,7 @@
         "nombre": "cardamomo",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/cardamomo.jpg",
         "category": "especias"
     },
     {
@@ -349,7 +349,7 @@
         "nombre": "clavos",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/clavos.jpg",
         "category": "especias"
     },
     {
@@ -357,7 +357,7 @@
         "nombre": "comino",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/comino.jpg",
         "category": "especias"
     },
     {
@@ -365,7 +365,7 @@
         "nombre": "coriando",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img":  "https://dummyimage.com/200x200/000",
+        "img":  "./public/especias/coriando.jpg",
         "category": "especias"
     },
     {
@@ -373,7 +373,7 @@
         "nombre": "curcuma",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/curcuma.jpg",
         "category": "especias"
     },
     {
@@ -381,7 +381,7 @@
         "nombre": "jenjibre",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/jenjibre.jpg",
         "category": "especias"
     },
     {
@@ -389,7 +389,7 @@
         "nombre": "laurel",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/laurel.jpg",
         "category": "especias"
     },
     {
@@ -397,7 +397,7 @@
         "nombre": "oregano",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/OREGANO.jpg",
         "category": "especias"
     },
     {
@@ -405,7 +405,7 @@
         "nombre": "papikra",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/papikra.jpg",
         "category": "especias"
     },
     {
@@ -413,7 +413,7 @@
         "nombre": "pimienta-blanca",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/pimienta-blanca.jpg",
         "category": "especias"
     },
     {
@@ -421,7 +421,7 @@
         "nombre": "pimienta_jamacana",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/pimienta-jamacana.jpg",
         "category": "especias"
     },
     {
@@ -429,7 +429,7 @@
         "nombre": "pimienta_negra",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/pimienta-negra.jpg",
         "category": "especias"
     },
     {
@@ -437,7 +437,7 @@
         "nombre": "pimienta-rosada",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/pimienta-rosada.jpg",
         "category": "especias"
     },
     {
@@ -445,7 +445,7 @@
         "nombre": "romero",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/romero.jpg",
         "category": "especias"
     },
     {
@@ -453,7 +453,7 @@
         "nombre": "sal-marina",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/sal-marina.jpg",
         "category": "especias"
     },
     {
@@ -461,7 +461,7 @@
         "nombre": "tomillo",
         "descripcion": "lorem ipsum.....",
         "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000",
+        "img": "./public/especias/tomillo.jpg",
         "category": "especias"
     }
     
