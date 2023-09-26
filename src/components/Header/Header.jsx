@@ -8,6 +8,7 @@ const Header = () => {
     return (
         <header className="header bg-blue-400" >
             <div className="header_container">
+                <img className="logo_1" src="./src/assets/comfrut.png"  alt="imagen del logo de la comercializadora" />
                 <h1 className="header_logo">MARKET-FRUIT</h1>
 
                 <Menu />

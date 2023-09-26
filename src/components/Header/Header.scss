@@ -3,12 +3,16 @@
    
     
     .header_container{
-        min-width: 1320px;
+        min-width: 1400px;
         margin: 0 auto ;
-        padding: 30px 0;
+        padding: 30px 90px;
         display: flex ;
         justify-content: space-between ;
         align-items: center;
+        .logo_1{
+          width: 110px; 
+        }
+        
 
         .header_logo{
             font-size: 30px;

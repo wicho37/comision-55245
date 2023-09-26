@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 const ItemCard = ({item}) => {
@@ -8,7 +8,12 @@ const ItemCard = ({item}) => {
             <img src={item.img} alt={item.nombre} />
             <p>{item.descripcion}</p>
             <p>precio: ${item.precio}</p>
-            <button>Ver más</button>
+
+            {
+                item.stock < 10 && <p className="text-red-500">Quedan sólo {item.stock} unidades!</p>
+            }
+            
+            <Link to={`/detail/${item.id}`} className='btn btn-primary'>Ver más</Link>
         </div>
     )
 }
